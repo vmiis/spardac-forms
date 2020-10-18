@@ -1,12 +1,12 @@
-$('body').css('background','black');
+//$('body').css('background','black');
 var timeouts = [];
 var intervals = [];
 //------------------------------------
 var this_module=$vm.module_list[$vm.vm['__ID'].name];
 //------------------------------------
 $('#D__ID').on('load',function(){
-    $('#header').hide();
-    $('#footer').hide();
+    //$('#header').hide();
+    //$('#footer').hide();
     $('#participant_div__ID').hide()
     $('#thirdparty_container__ID').css('padding-top','100px');
     $('#thirdparty_container__ID').css('height',$vm.min_height);
